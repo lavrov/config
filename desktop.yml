@@ -16,6 +16,7 @@
     - name: Install packages
       package: name={{ item }} state=present
       with_items:
+        - chromium-browser
         - git
         - emacs24
         - network-manager-openvpn-gnome
