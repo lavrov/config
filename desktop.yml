@@ -23,6 +23,7 @@
         - network-manager-openvpn-gnome
         - openjdk-8-jdk
         - sbt
+        - maven
 
 - name: Install Spacemacs
   hosts: localhost
