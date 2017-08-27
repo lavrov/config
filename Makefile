@@ -1,2 +1,2 @@
 default: 
-	ansible-playbook desktop.yml --become --ask-become-pass
+	ansible-playbook desktop.yml --ask-become-pass

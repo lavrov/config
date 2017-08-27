@@ -23,8 +23,11 @@
         - network-manager-openvpn-gnome
         - openjdk-8-jdk
         - sbt
-    - name: Install Spacemacs
-      git:
+
+- name: Install Spacemacs
+  hosts: localhost
+  tasks:
+    - git:
         repo: https://github.com/syl20bnr/spacemacs
         dest: ~/.emacs.d
         version: master
